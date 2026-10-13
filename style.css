@@ -380,6 +380,7 @@ select {
 .trip-image {
   position: relative;
   height: 270px;
+  background-color: #d7e0e5;
   background-size: cover;
   background-position: center;
 }
@@ -388,26 +389,36 @@ select {
 .image-two,
 .image-three {
   background:
-    linear-gradient(180deg, rgba(13, 19, 24, 0.08), rgba(8, 15, 21, 0.46)),
-    linear-gradient(135deg, rgba(108, 127, 144, 0.4), rgba(41, 48, 54, 0.1) 35%, rgba(255, 145, 84, 0.18));
+    linear-gradient(180deg, rgba(13, 19, 24, 0.04), rgba(8, 15, 21, 0.18)),
+    linear-gradient(135deg, #8da4af, #b7a795);
 }
 
 .image-one {
   background:
-    linear-gradient(180deg, rgba(13, 19, 24, 0.12), rgba(8, 15, 21, 0.5)),
-    linear-gradient(135deg, rgba(100, 128, 149, 0.7), rgba(43, 54, 63, 0.35), rgba(255, 145, 84, 0.28));
+    linear-gradient(180deg, rgba(13, 19, 24, 0.02), rgba(8, 15, 21, 0.2)),
+    url("assets/tour-ladakh.jpg");
+  background-position: center 55%;
 }
 
 .image-two {
   background:
-    linear-gradient(180deg, rgba(13, 19, 24, 0.12), rgba(8, 15, 21, 0.52)),
-    linear-gradient(135deg, rgba(120, 80, 38, 0.7), rgba(52, 48, 44, 0.4), rgba(255, 171, 98, 0.18));
+    linear-gradient(180deg, rgba(13, 19, 24, 0.02), rgba(8, 15, 21, 0.2)),
+    url("assets/tour-spiti.jpg");
+  background-position: center 55%;
 }
 
 .image-three {
   background:
-    linear-gradient(180deg, rgba(10, 17, 22, 0.16), rgba(8, 15, 21, 0.5)),
-    linear-gradient(135deg, rgba(149, 105, 63, 0.68), rgba(74, 72, 69, 0.42), rgba(255, 164, 84, 0.2));
+    linear-gradient(180deg, rgba(10, 17, 22, 0.02), rgba(8, 15, 21, 0.2)),
+    url("assets/tour-rajasthan.jpg");
+  background-position: center 55%;
+}
+
+.image-one,
+.image-two,
+.image-three {
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .day-badge {
